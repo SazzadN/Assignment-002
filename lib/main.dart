@@ -80,7 +80,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
               child: Text("Add"),
             ),
             Expanded(
-              child: ListView.
+              child: ListV
                 itemCount: contacts.length,
                 itemBuilder: (context, index) {
                   return ListTile(
